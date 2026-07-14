@@ -1,0 +1,31 @@
+{
+  "name": "failover-proxy",
+  "version": "4.0.0",
+  "description": "Enterprise-grade AI gateway with multi-provider failover, circuit breakers, key rotation, and observability for Claude Code.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "check": "tsc --noEmit",
+    "test": "node --test dist/tests/unit/*.test.js dist/tests/integration/*.test.js",
+    "test:dev": "tsx --test src/tests/unit/*.test.ts src/tests/integration/*.test.ts",
+    "lint": "tsc --noEmit --strict"
+  },
+  "keywords": [
+    "claude-code",
+    "openrouter",
+    "vibeproxy",
+    "proxy",
+    "failover",
+    "key-rotation",
+    "circuit-breaker",
+    "ai-gateway"
+  ],
+  "author": "",
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
