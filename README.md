@@ -105,23 +105,7 @@ After installation, `~/.claude/settings.json` is configured with:
   "hasCompletedOnboarding": true
 }
 ```
-```json
-{
-  "env": {
-    "ANTHROPIC_BASE_URL": "http://localhost:9000",
-    "ANTHROPIC_AUTH_TOKEN": "dummy-not-used",
-    "ANTHROPIC_API_KEY": "",
-    "ANTHROPIC_MODEL": "nvidia/nemotron-3-super-120b-a12b:free",
-    "ANTHROPIC_DEFAULT_OPUS_MODEL": "moonshotai/kimi-k2.6:free",
-    "ANTHROPIC_DEFAULT_SONNET_MODEL": "minimax/m2-5:free",
-    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek/deepseek-v4-flash:free",
-    "CLAUDE_CODE_SUBAGENT_MODEL": "openai/gpt-oss-120b:free",
-    "CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY": "1",
-    "DISABLE_TELEMETRY": "1"
-  },
-  "hasCompletedOnboarding": true
-}
-```
+
 
 ## Configuration
 
